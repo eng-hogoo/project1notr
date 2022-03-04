@@ -1,0 +1,174 @@
+* {
+    font-family: sans-serif;
+}
+
+.bubble {
+    position: relative;
+    margin  : 0px;
+    padding : 0px;
+}
+
+.img {
+    background-size: cover;
+    height         : 100%;
+    width          : 100%;
+    position       : fixed;
+}
+
+header {
+    position: relative;
+    top     : 87px;
+    left    : 118px;
+}
+
+.one {
+    width: 90px;
+}
+
+a {
+    position       : absolute;
+    text-decoration: none;
+    color          : white;
+    border         : 1.5px solid white;
+    border-radius  : 20px;
+    text-align     : center;
+    top            : 12px;
+    right          : 190px;
+    width    : 97px;
+    font-size: 21px;
+    padding  : 3px;
+}
+
+main {
+    position   : absolute;
+    font-size  : 142px;
+    top        : 130px;
+    left       : 118px;
+    line-height: 0.8;
+    color      : white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-size: 20px;
+}
+
+.link {
+    text-align     : center;
+    width          : 96px;
+    text-decoration: none;
+    color          : white;
+    position       : absolute;
+    top            : 510px;
+    left           : 10px;
+    font-size      : 19px;
+    padding        : 9px;
+    border-radius  : 18px;
+}
+
+.tera {
+    width           : 50px;
+    height          : 100%;
+    background-image: linear-gradient(#037b7d, #092644, #0a183b);
+    position        : fixed;
+    right           : 1px;
+    top             : 8px;
+}
+
+.ff {
+    padding-left: 16px;
+    position    : relative;
+
+    padding-right: 16px;
+    width        : 25px;
+    text-align   : center;
+}
+
+.reta {
+    position: absolute;
+    top     : 50%;
+}
+
+.ty {
+    position: absolute;
+    top     : 90%;
+}
+
+.ff.one {
+    margin-top: 35px;
+}
+
+.bob {
+    width: 100%;
+
+    position       : fixed;
+    display        : flex;
+    justify-content: space-around;
+    align-content  : space-around;
+    bottom         : -30px;
+}
+
+.bob img {
+    width    : 50px;
+    animation: po 5s linear infinite;
+}
+
+@keyframes po {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        opacity: 0;
+
+        transform: translateY(-750px);
+    }
+}
+
+.bob :nth-child(2) {
+    animation-duration: 4.5s;
+    width             : 19.5px;
+    height            : 19.5px;
+}
+
+.bob :nth-child(5) {
+    animation-duration: 15s;
+    width             : 35px;
+    height            : 35px;
+}
+
+.bob :nth-child(6) {
+    animation-duration: 3.9s;
+    width             : 40px;
+    height            : 40px;
+}
+
+.bob i:nth-child(3) {
+    animation-duration: 9s;
+    width             : 30px;
+    height            : 30px;
+}
+
+.bob :nth-child(4) {
+    animation-duration: 8s;
+}
+
+.bob :nth-child(7) {
+    animation-duration: 2s;
+    width             : 25px;
+    height            : 25px;
+}
+
+.bob :nth-child(8) {
+    animation-duration: 7.8s;
+}
+
+.bob :nth-child(9) {
+    animation-duration: 7s;
+    width             : 17px;
+    height            : 17px;
+}

@@ -1,0 +1,123 @@
+
+
+
+*{
+
+text-transform: capitalize;
+}
+
+
+
+img{
+position: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+p{
+    white-space: normal;
+    width: 0;
+    animation:pp 3s steps(28) both    ;
+    overflow: hidden;
+    position: fixed;
+    top:2%;
+    color:#cc1c1ced;
+    font-size: 40px;
+    font-weight: bolder;
+    left:80%;
+    -webkit-animation:pp 3s steps() both    ;
+}
+ div span{display:inline-block ;
+    position: fixed;
+    top:53%;
+    font-size: 103px;
+    color: white;
+    left:82.5%;
+}
+
+
+
+
+
+ i{position: fixed;
+    background-color: #cc1c1c;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left:80%;
+    top:55%;
+
+}
+
+
+span{
+    animation: heart 1.5s 3s  linear infinite ;
+    -webkit-animation: heart 1.5s 3s  linear infinite ;
+    -moz-animation:  heart 1.5s 3s  linear infinite ;
+}
+
+@keyframes heart{
+
+0%{opacity: 0.8;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+50%{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+100%{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+}
+@keyframes pp{
+0%{
+width: 0;
+
+}
+
+
+100%{
+width:200px;
+
+}
+
+}
+
+.pn{ position: relative;
+    animation:dis 3s ;
+    -moz-animation: ;
+    -webkit-animation:dis 3s ;}
+
+.df{
+    
+    position: fixed;
+    top: 95%;
+    left: 5%;
+    color: red;
+}
+.flo{
+
+    
+   width:20px;
+   height: 20px;
+}
